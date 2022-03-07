@@ -4,10 +4,10 @@ terraform {
       source = "hashicorp/azurerm"
       version = "2.98.0"
 
-      subscriptio_id = var.subscriptionID
-client_id =var.clientID
-client_secret = var.clientSecret
-tenant_id =var.tenantID
+      subscriptio_id = var.subscription_id
+      client_id =var.client_id
+      client_secret = var.client_secret
+       tenant_id =var.tenant_id
     }
   }
 }

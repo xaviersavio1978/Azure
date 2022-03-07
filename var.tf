@@ -6,7 +6,7 @@ variable "clientID"{
 type= string 
 }
 
-variable "clientsecret"{
+variable "client_secret"{
 type = string
 }
 

@@ -1,5 +1,5 @@
 
-
+/*
 
 resource "azurerm_log_analytics_workspace" "example" {
   name                = "example-workspace"

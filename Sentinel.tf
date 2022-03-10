@@ -1,4 +1,4 @@
-
+/*
 
 
 resource "azurerm_log_analytics_workspace" "example" {
@@ -34,3 +34,4 @@ AzureActivity |
 QUERY
 }
 
+*/

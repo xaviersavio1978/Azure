@@ -8,10 +8,8 @@ module "vnet" {
   subnet_prefixes     = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
   subnet_names        = ["vcaresubnet", "payglobalsubnet", "greenteasubnet"]
 
-  subnet_service_endpoints = {
-    vcaresubnet = ["Microsoft.Storage", "Microsoft.Sql"],
-    payglobalsubnet = ["Microsoft.AzureActiveDirectory"]
-  }
+  
+  
 
   tags = {
     environment = "prod"
